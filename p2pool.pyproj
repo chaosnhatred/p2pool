@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76cfeeaa-e1a6-4a5a-9840-a6092b3cbc7c}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>fpconst.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="dev\convert_networks.py" />
+    <Compile Include="fpconst.py" />
+    <Compile Include="litecoin_scrypt\setup.py" />
+    <Compile Include="nattraverso\ipdiscover.py" />
+    <Compile Include="nattraverso\portmapper.py" />
+    <Compile Include="nattraverso\pynupnp\soap.py" />
+    <Compile Include="nattraverso\pynupnp\upnp.py" />
+    <Compile Include="nattraverso\pynupnp\upnpxml.py" />
+    <Compile Include="nattraverso\pynupnp\__init__.py" />
+    <Compile Include="nattraverso\utils.py" />
+    <Compile Include="nattraverso\__init__.py" />
+    <Compile Include="p2pool\bitcoin\data.py" />
+    <Compile Include="p2pool\bitcoin\getwork.py" />
+    <Compile Include="p2pool\bitcoin\height_tracker.py" />
+    <Compile Include="p2pool\bitcoin\helper.py" />
+    <Compile Include="p2pool\bitcoin\networks\bitcoin.py" />
+    <Compile Include="p2pool\bitcoin\networks\bitcoin_testnet.py" />
+    <Compile Include="p2pool\bitcoin\networks\btcregtest.py" />
+    <Compile Include="p2pool\bitcoin\networks\fastcoin.py" />
+    <Compile Include="p2pool\bitcoin\networks\litecoin.py" />
+    <Compile Include="p2pool\bitcoin\networks\litecoin_testnet.py" />
+    <Compile Include="p2pool\bitcoin\networks\namecoin.py" />
+    <Compile Include="p2pool\bitcoin\networks\namecoin_testnet.py" />
+    <Compile Include="p2pool\bitcoin\networks\terracoin.py" />
+    <Compile Include="p2pool\bitcoin\networks\terracoin_testnet.py" />
+    <Compile Include="p2pool\bitcoin\networks\__init__.py" />
+    <Compile Include="p2pool\bitcoin\p2p.py" />
+    <Compile Include="p2pool\bitcoin\script.py" />
+    <Compile Include="p2pool\bitcoin\sha256.py" />
+    <Compile Include="p2pool\bitcoin\stratum.py" />
+    <Compile Include="p2pool\bitcoin\worker_interface.py" />
+    <Compile Include="p2pool\bitcoin\__init__.py" />
+    <Compile Include="p2pool\data.py" />
+    <Compile Include="p2pool\main.py" />
+    <Compile Include="p2pool\networks\bitcoin.py" />
+    <Compile Include="p2pool\networks\bitcoin_testnet.py" />
+    <Compile Include="p2pool\networks\btcregtest.py" />
+    <Compile Include="p2pool\networks\fastcoin.py" />
+    <Compile Include="p2pool\networks\litecoin.py" />
+    <Compile Include="p2pool\networks\litecoin_testnet.py" />
+    <Compile Include="p2pool\networks\terracoin.py" />
+    <Compile Include="p2pool\networks\terracoin_testnet.py" />
+    <Compile Include="p2pool\networks\__init__.py" />
+    <Compile Include="p2pool\node.py" />
+    <Compile Include="p2pool\p2p.py" />
+    <Compile Include="p2pool\test\bitcoin\test_data.py" />
+    <Compile Include="p2pool\test\bitcoin\test_getwork.py" />
+    <Compile Include="p2pool\test\bitcoin\test_p2p.py" />
+    <Compile Include="p2pool\test\bitcoin\test_script.py" />
+    <Compile Include="p2pool\test\bitcoin\test_sha256.py" />
+    <Compile Include="p2pool\test\bitcoin\__init__.py" />
+    <Compile Include="p2pool\test\test_data.py" />
+    <Compile Include="p2pool\test\test_node.py" />
+    <Compile Include="p2pool\test\test_p2p.py" />
+    <Compile Include="p2pool\test\util\test_datachunker.py" />
+    <Compile Include="p2pool\test\util\test_deferral.py" />
+    <Compile Include="p2pool\test\util\test_expiring_dict.py" />
+    <Compile Include="p2pool\test\util\test_forest.py" />
+    <Compile Include="p2pool\test\util\test_graph.py" />
+    <Compile Include="p2pool\test\util\test_math.py" />
+    <Compile Include="p2pool\test\util\test_pack.py" />
+    <Compile Include="p2pool\test\util\test_skiplist.py" />
+    <Compile Include="p2pool\test\util\__init__.py" />
+    <Compile Include="p2pool\test\__init__.py" />
+    <Compile Include="p2pool\util\datachunker.py" />
+    <Compile Include="p2pool\util\deferral.py" />
+    <Compile Include="p2pool\util\deferred_resource.py" />
+    <Compile Include="p2pool\util\expiring_dict.py" />
+    <Compile Include="p2pool\util\fixargparse.py" />
+    <Compile Include="p2pool\util\forest.py" />
+    <Compile Include="p2pool\util\graph.py" />
+    <Compile Include="p2pool\util\jsonrpc.py" />
+    <Compile Include="p2pool\util\logging.py" />
+    <Compile Include="p2pool\util\math.py" />
+    <Compile Include="p2pool\util\memoize.py" />
+    <Compile Include="p2pool\util\memory.py" />
+    <Compile Include="p2pool\util\p2protocol.py" />
+    <Compile Include="p2pool\util\pack.py" />
+    <Compile Include="p2pool\util\skiplist.py" />
+    <Compile Include="p2pool\util\switchprotocol.py" />
+    <Compile Include="p2pool\util\variable.py" />
+    <Compile Include="p2pool\util\__init__.py" />
+    <Compile Include="p2pool\web.py" />
+    <Compile Include="p2pool\work.py" />
+    <Compile Include="p2pool\__init__.py" />
+    <Compile Include="run_p2pool.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="SOAPpy\Client.py" />
+    <Compile Include="SOAPpy\Config.py" />
+    <Compile Include="SOAPpy\Errors.py" />
+    <Compile Include="SOAPpy\GSIServer.py" />
+    <Compile Include="SOAPpy\NS.py" />
+    <Compile Include="SOAPpy\Parser.py" />
+    <Compile Include="SOAPpy\Server.py" />
+    <Compile Include="SOAPpy\SOAP.py" />
+    <Compile Include="SOAPpy\SOAPBuilder.py" />
+    <Compile Include="SOAPpy\Types.py" />
+    <Compile Include="SOAPpy\URLopener.py" />
+    <Compile Include="SOAPpy\Utilities.py" />
+    <Compile Include="SOAPpy\version.py" />
+    <Compile Include="SOAPpy\WSDL.py" />
+    <Compile Include="SOAPpy\__init__.py" />
+    <Compile Include="wstools\c14n.py" />
+    <Compile Include="wstools\logging.py" />
+    <Compile Include="wstools\MIMEAttachment.py" />
+    <Compile Include="wstools\Namespaces.py" />
+    <Compile Include="wstools\tests\test_t1.py" />
+    <Compile Include="wstools\tests\test_wsdl.py" />
+    <Compile Include="wstools\tests\test_wstools.py" />
+    <Compile Include="wstools\tests\test_wstools_net.py" />
+    <Compile Include="wstools\tests\__init__.py" />
+    <Compile Include="wstools\TimeoutSocket.py" />
+    <Compile Include="wstools\UserTuple.py" />
+    <Compile Include="wstools\Utility.py" />
+    <Compile Include="wstools\WSDLTools.py" />
+    <Compile Include="wstools\XMLname.py" />
+    <Compile Include="wstools\XMLSchema.py" />
+    <Compile Include="wstools\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web-static\d3.v2.min.js" />
+    <Content Include="web-static\favicon.ico" />
+    <Content Include="web-static\graphs.html" />
+    <Content Include="web-static\index.html" />
+    <Content Include="web-static\share.html" />
+    <Content Include="wstools\tests\config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dev" />
+    <Folder Include="litecoin_scrypt" />
+    <Folder Include="nattraverso" />
+    <Folder Include="nattraverso\pynupnp" />
+    <Folder Include="p2pool" />
+    <Folder Include="p2pool\bitcoin" />
+    <Folder Include="p2pool\bitcoin\networks" />
+    <Folder Include="p2pool\networks" />
+    <Folder Include="p2pool\test" />
+    <Folder Include="p2pool\test\bitcoin" />
+    <Folder Include="p2pool\test\util" />
+    <Folder Include="p2pool\util" />
+    <Folder Include="SOAPpy" />
+    <Folder Include="web-static" />
+    <Folder Include="wstools" />
+    <Folder Include="wstools\tests" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
